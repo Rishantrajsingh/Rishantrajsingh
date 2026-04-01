@@ -24,9 +24,9 @@
 
 <p align="center">
 
-<img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=Rishantrajsingh&show_icons=true&theme=tokyonight" height="180"/>
+<img src="https://github-readme-stats.vercel.app/api?username=Rishantrajsingh&show_icons=true&theme=tokyonight" height="180"/>
 
-<img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=Rishantrajsingh&layout=compact&theme=tokyonight" height="180"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rishantrajsingh&layout=compact&theme=tokyonight" height="180"/>
 
 </p>
 
