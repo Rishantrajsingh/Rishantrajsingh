@@ -12,7 +12,7 @@
 
 ---
 
-![snake animation](https://github.com/YOUR_USERNAME/Rishantrajsingh/blob/output/github-contribution-grid-snake-dark.svg)
+![snake animation](https://github.com/Rishantrajsingh/Rishantrajsingh/blob/output/github-contribution-grid-snake-dark.svg)
 
 ## 🛠️ Tech Stack
 
