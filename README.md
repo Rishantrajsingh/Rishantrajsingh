@@ -12,7 +12,7 @@
 
 ---
 
-<img src="https://raw.githubusercontent.com/maurodesouza/maurodesouza/output/snake.svg" alt="Snake animation" />
+![snake animation](https://github.com/YOUR_USERNAME/Rishantrajsingh/blob/output/github-contribution-grid-snake-dark.svg)
 
 ## 🛠️ Tech Stack
 
