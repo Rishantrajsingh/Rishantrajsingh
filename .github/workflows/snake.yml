@@ -1,8 +1,8 @@
-name: Generate Snake Animation
+name: generate pacman game
 
 on:
   schedule:
-    - cron: "0 */12 * * *"   # har 12 ghante run hoga
+    - cron: "0 */24 * * *"
 
   workflow_dispatch:
 
@@ -15,18 +15,16 @@ jobs:
     permissions:
       contents: write
     runs-on: ubuntu-latest
+    timeout-minutes: 5
 
     steps:
-      - name: Generate snake animation
-        uses: Platane/snk@v3
+      - name: generate pacman-contribution-graph
+        uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - name: Push snake animation to output branch
-        uses: crazy-max/ghaction-github-pages@v3
+      - name: push pacman graph to output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
           build_dir: dist
